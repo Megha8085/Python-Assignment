@@ -1,10 +1,6 @@
-# Python program to find Area of a circle
+import math
+radius = float(input("Enter the radius of the circle :"))
+area = math.pi * radius * radius
 
-def findArea(r):
-	PI = 3.142
-	return PI * (r*r);
-
-# Driver method
-print("Area is %.6f" % findArea(5));
-
+print("Area of the circle is :{0}".format(area))
 
